@@ -45,6 +45,7 @@ Add the SSH public key to your account on GitHub:
 - In the "Key" field, paste your public key.
 - Click Add SSH key.
 - If prompted, confirm access to your account on GitHub. For more information, see "Sudo mode."
+## Clone Repository
 
 `ssh clone: git clone git@github.com:trimbleava/philippine.git`
   
