@@ -16,8 +16,24 @@ You'll need both Python and pip installed to create and manage Python packages
 
 ### Install Python:
 - Go to python.org/downloads
-- Download the latest version for your operating system (Windows/Mac/Linux)
+- Download Python 3.12.6 Windows Installer: https://www.python.org/downloads/release/python-3126
 - During Windows installation, make sure to check "Add Python to PATH
+`python --version`
+
+> C:\Users\Beheen.Trimble>python --version
+> 
+> Python 3.12.6
+ 
+#### Default File Location
+- C:\Users\Beheen.Trimble\AppData\Local\Programs\Python\Python312\Scripts\
+- C:\Users\Beheen.Trimble\AppData\Local\Programs\Python\Python312\
+- C:\Users\Beheen.Trimble\AppData\Local\Programs\Python\Launcher\
+#### Test PIP
+`pip --version`
+
+> C:\Users\Beheen.Trimble>pip --version
+> 
+> pip 24.2 from C:\Users\Beheen.Trimble\AppData\Local\Programs\Python\Python312\Lib\site-packages\pip (python 3.12)
 
 # Create Repositoy
 Go to your GitHub/GitLab site and manually creat the repository.
