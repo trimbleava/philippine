@@ -17,8 +17,9 @@ You'll need both Python and pip installed to create and manage Python packages
 ### Install Python:
 - Go to python.org/downloads
 - Download Python 3.12.6 Windows Installer: https://www.python.org/downloads/release/python-3126
-- During Windows installation, make sure to check "Add Python to PATH
-`python --version`
+- During Windows installation, make sure to check "Add Python to PATH"
+- Test Installation:
+ `python --version`
 
 > C:\Users\Beheen.Trimble>python --version
 > 
@@ -28,6 +29,7 @@ You'll need both Python and pip installed to create and manage Python packages
 - C:\Users\Beheen.Trimble\AppData\Local\Programs\Python\Python312\Scripts\
 - C:\Users\Beheen.Trimble\AppData\Local\Programs\Python\Python312\
 - C:\Users\Beheen.Trimble\AppData\Local\Programs\Python\Launcher\
+  
 #### Test PIP
 `pip --version`
 
