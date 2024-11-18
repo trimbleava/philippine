@@ -3,16 +3,26 @@ Matlab files to GIS data format, from modeling in Philippine using DeltFM
 
 # System Installation
 ## Git Command
-  url: https://git-scm.com/downloads/win  
-  download: [Git-2.47.0.2-64-bit.exe](https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-64-bit.exe)
-  install: C:\Users\Beheen.Trimble\AppData\Local\Programs\Git
+url: https://git-scm.com/downloads/win  
+download: [Git-2.47.0.2-64-bit.exe](https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-64-bit.exe)
+install: C:\Users\Beheen.Trimble\AppData\Local\Programs\Git
 ## Github Desktop
-  If you have GitHub Desktop installed, you can use it to clone repositories and not deal with SSH keys.
-  url: https://desktop.github.com/download/
-  file: "GitHubDesktopSetup-x64.exe"
-  permission: trimbleava@github.com
+If you have GitHub Desktop installed, you can use it to clone repositories and not deal with SSH keys.
+url: https://desktop.github.com/download/
+file: "GitHubDesktopSetup-x64.exe"
+permission: trimbleava@github.com
+## Install Python
+You'll need both Python and pip installed to create and manage Python packages
+
+### Install Python:
+- Go to python.org/downloads
+- Download the latest version for your operating system (Windows/Mac/Linux)
+- During Windows installation, make sure to check "Add Python to PATH
+
 # Create Repositoy
-- https://github.com/trimbleava/philippine
+Go to your GitHub/GitLab site and manually creat the repository.
+(i.e. https://github.com/trimbleava/philippine)
+
 ## Generate SSH Key
 You can generate a new SSH key on your local machine. After you generate the key, you can add the public key to your account on GitHub.com to enable authentication for Git operations over SSH.
 ```
@@ -50,6 +60,6 @@ Check ssh Connection:
 `ssh -T git@github.com`
 
 ## Clone Repository
-
 `ssh clone: git clone git@github.com:trimbleava/philippine.git`
+
   
