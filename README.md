@@ -1,4 +1,4 @@
-# philippine
+# Philippine Project
 Matlab files to GIS data format, from modeling in Philippine using DeltFM
 
 # System Installation
@@ -8,4 +8,6 @@ Matlab files to GIS data format, from modeling in Philippine using DeltFM
   install: C:\Users\Beheen.Trimble\AppData\Local\Programs\Git 
 # Repositoy
 - https://github.com/trimbleava/philippine
+- 
+- ssh clone: git clone git@github.com:trimbleava/philippine.git
   
