@@ -37,6 +37,14 @@ In a terminal window without elevated permissions, add your SSH private key to t
 `ssh-add c:/Users/YOU/.ssh/id_ed25519 (i.e.) C:\Users\Beheen.Trimble\.ssh`
 
 Add the SSH public key to your account on GitHub:
+- In the upper-right corner of any page on GitHub, click your profile photo, then click  Settings.
+- In the "Access" section of the sidebar, click  SSH and GPG keys.
+- Click New SSH key or Add SSH key.
+- In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal laptop, you might call this key "Personal laptop".
+- Select the type of key, either authentication or signing. For more information about commit signing, see "About commit signature verification."
+- In the "Key" field, paste your public key.
+- Click Add SSH key.
+- If prompted, confirm access to your account on GitHub. For more information, see "Sudo mode."
 
 `ssh clone: git clone git@github.com:trimbleava/philippine.git`
   
